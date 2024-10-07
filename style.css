@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#home{
+    background-image: url(https://img.freepik.com/free-vector/background-abstract-line-digital-gradient-luxury_483537-2356.jpg?uid=R114668176&ga=GA1.1.1837137669.1726030558&semt=ais_hybrid);
+    background-size: cover;
+}
+.body-container{
+    height: 100vh;
+    width: 100%;
+   
+    position: relative;
+}
+nav{
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+}
+#digi{
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 400;
+}
+.body-content{
+    padding-top: 200px;
+    margin-left: 100px;
+}
+.button{
+    padding-top: 20px;
+    margin-left: 100px;
+}
+#Services{
+    height: 100vh;
+    width: 100%;
+}
+.subhead{
+    margin-left: 20px;
+}
+.slogan{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+.img-container{
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 20px;
+    /* background-color: yellowgreen; */
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(2,200px);
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.imgbox{
+    /* border: 2px solid black; */
+    box-shadow: 0px 0px 2px black;
+}
+.imgbox1{
+    background-image: url(https://img.freepik.com/free-vector/app-development-concept-design_23-2148670525.jpg?uid=R114668176&ga=GA1.1.1837137669.1726030558&semt=ais_hybrid);
+    background-size: cover;
+}
+.imgbox2{
+    background-image: url(https://img.freepik.com/premium-vector/mobile-online-data-monitoring-analysis-management-illustrations_1278800-9036.jpg?uid=R114668176&ga=GA1.1.1837137669.1726030558&semt=ais_hybrid);
+    background-size: cover;
+}
+.imgbox3{
+    background-image: url(https://img.freepik.com/premium-photo/app-modernization-transforms-legacy-apps-into-efficient-highperforming-versions-growth_144356-82006.jpg?uid=R114668176&ga=GA1.1.1837137669.1726030558&semt=ais_hybrid);
+    background-size: cover;
+}
+.imgbox4{
+    background-image: url(https://img.freepik.com/free-vector/app-development-landing-page-template_52683-47668.jpg?uid=R114668176&ga=GA1.1.1837137669.1726030558&semt=ais_hybrid);
+    background-size: cover;
+}
+.imgbox5{
+    background-image: url(https://img.freepik.com/free-photo/web-design-concept-with-drawings_1134-77.jpg?uid=R114668176&ga=GA1.1.1837137669.1726030558&semt=ais_hybrid);
+    background-size: cover;
+}
+.imgbox6{
+    background-image: url(https://img.freepik.com/premium-photo/hands-typing-code-keyboard-dark-room_963421-9471.jpg?uid=R114668176&ga=GA1.1.1837137669.1726030558&semt=ais_hybrid);
+    background-size: cover;
+}
+.imgbox7{
+    background-image: url(https://img.freepik.com/free-vector/ux-ui-typographic-header-app-interface-improvement-user-interface-design-user-experience-development-modern-technology-concept-flat-vector-illustration_613284-1484.jpg?uid=R114668176&ga=GA1.1.1837137669.1726030558&semt=ais_hybrid);
+    background-size: cover;
+}
+.imgbox8{
+    background-image: url(https://img.freepik.com/premium-photo/representation-user-experience-interface-design-display-smart-phone-screen-tablet-technology_1030874-2543.jpg?uid=R114668176&ga=GA1.1.1837137669.1726030558&semt=ais_hybrid);
+    background-size: cover;
+}
+#about{
+    height: 600px;
+    width: 100%;
+  
+}
+.aboutcontainer{
+    margin-top: 30px;
+    height: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 500px 300px 300px;
+    justify-content: center;
+    column-gap: 40px;
+}
+.aboutbox{
+    /* border: 2px solid red; */
+}
+.aboutimg{
+    width: 100%;
+    height: 250px;
+    background-image: url(https://img.freepik.com/free-photo/modern-equipped-computer-lab_23-2149241213.jpg?uid=R114668176&ga=GA1.1.1837137669.1726030558&semt=ais_hybrid);
+    background-size: cover;
+}
+.btn1{
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 380px 280px 280px 380px;
+    justify-content: center;
+    text-align: center;
+    /* align-items: center; */
+}
+.footerbox{
+  
+   
+}
+.footerhead{
+    margin-top: 50px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+.footercontent{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.footerlist{
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.icn{
+    font-size: 30px;
+    color: black;
+}
